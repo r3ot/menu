@@ -1,0 +1,77 @@
+/* ===== FAQ / Questions Section ===== */
+.questions {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.questions .title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.questions .title h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.questions .section-center {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.question {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.question-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question-title p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.question-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.plus-icon,
+.minus-icon {
+  display: none;
+}
+
+.question-texts {
+  display: none;
+  margin-top: 10px;
+  color: #555;
+}
+
+.show-text .question-texts {
+  display: block;
+}
+
+.show-text .minus-icon {
+  display: inline;
+}
+
+.show-text .plus-icon {
+  display: none;
+}
+
+.question-btn:focus {
+  outline: none;
+}
